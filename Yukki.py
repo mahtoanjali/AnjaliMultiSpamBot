@@ -90,8 +90,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 2")
             await ydk.start()
-            await ydk(functions.channels.JoinChannelRequest(channel="@OfficialYukki"))
-            await ydk(functions.channels.JoinChannelRequest(channel="@OfficialYukkiSupport"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@MAHTOxOFFICIAL"))
+            await ydk(functions.channels.JoinChannelRequest(channel="@AnjalixSupportxGroup"))
             botme = await ydk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -115,8 +115,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 3")
             await  wdk.start()
-            await wdk(functions.channels.JoinChannelRequest(channel="@OfficialYukki"))
-            await wdk(functions.channels.JoinChannelRequest(channel="@OfficialYukkiSupport"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@MAHTOxOFFICIAL"))
+            await wdk(functions.channels.JoinChannelRequest(channel="@AnjalixSupportxGroup"))
             botme = await wdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -140,8 +140,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 4")
             await hdk.start()
-            await hdk(functions.channels.JoinChannelRequest(channel="@OfficialYukki"))
-            await hdk(functions.channels.JoinChannelRequest(channel="@OfficialYukkiSupport"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@MAHTOxOFFICIAL"))
+            await hdk(functions.channels.JoinChannelRequest(channel="@AnjalixSupportxGroup"))
             botme = await hdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -165,8 +165,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 5")
             await sdk.start()
-            await sdk(functions.channels.JoinChannelRequest(channel="@OfficialYukki"))
-            await sdk(functions.channels.JoinChannelRequest(channel="@OfficialYukkiSupport"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@MAHTOxOFFICIAL"))
+            await sdk(functions.channels.JoinChannelRequest(channel="@AnjalixSupportxGroup"))
             botme = await sdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -190,8 +190,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 6")
             await adk.start()
-            await adk(functions.channels.JoinChannelRequest(channel="@OfficialYukki"))
-            await adk(functions.channels.JoinChannelRequest(channel="@OfficialYukkiSupport"))
+            await adk(functions.channels.JoinChannelRequest(channel="@MAHTOxOFFICIAL"))
+            await adk(functions.channels.JoinChannelRequest(channel="@AnjalixSupportxGroup"))
             botme = await adk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -215,8 +215,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 7")
             await bdk.start()
-            await bdk(functions.channels.JoinChannelRequest(channel="@OfficialYukki"))
-            await bdk(functions.channels.JoinChannelRequest(channel="@OfficialYukkiSupport"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@MAHTOxOFFICIAL"))
+            await bdk(functions.channels.JoinChannelRequest(channel="@AnjalixSupportxGroup"))
             botme = await bdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -241,8 +241,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 8")
             await cdk.start()
-            await cdk(functions.channels.JoinChannelRequest(channel="@OfficialYukki"))
-            await cdk(functions.channels.JoinChannelRequest(channel="@OfficialYukkiSupport"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@MAHTOxOFFICIAL"))
+            await cdk(functions.channels.JoinChannelRequest(channel="@AnjalixSupportxGroup"))
             botme = await cdk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -266,8 +266,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 9")
             await ddk.start()
-            await ddk(functions.channels.JoinChannelRequest(channel="@OfficialYukki"))
-            await ddk(functions.channels.JoinChannelRequest(channel="@OfficialYukkiSupport"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@MAHTOxOFFICIAL"))
+            await ddk(functions.channels.JoinChannelRequest(channel="@AnjalixSupportxGroup"))
             botme = await ddk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -292,8 +292,8 @@ async def start_yukki():
         try:
             print("Booting Up The Client 10")
             await edk.start()
-            await edk(functions.channels.JoinChannelRequest(channel="@OfficialYukki"))
-            await edk(functions.channels.JoinChannelRequest(channel="@OfficialYukkiSupport"))
+            await edk(functions.channels.JoinChannelRequest(channel="@MAHTOxOFFICIAL"))
+            await edk(functions.channels.JoinChannelRequest(channel="@AnjalixSupportxGroup"))
             botme = await edk.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SMEX_USERS.append(botid)
@@ -392,7 +392,7 @@ async def _(e):
 @edk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.pjoin"))        
 async def _(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
+    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/AnjalixSupportxGroup\n\n.pjoin HGYs1wvsPUplMmM1"
     if e.sender_id in SMEX_USERS:
         yukki = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
